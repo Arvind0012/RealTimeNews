@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RealTimeNews/static/css/main.1866103d.css",
+    "main.js": "/RealTimeNews/static/js/main.04082b81.js",
+    "static/js/787.167f7a2f.chunk.js": "/RealTimeNews/static/js/787.167f7a2f.chunk.js",
+    "index.html": "/RealTimeNews/index.html",
+    "main.1866103d.css.map": "/RealTimeNews/static/css/main.1866103d.css.map",
+    "main.04082b81.js.map": "/RealTimeNews/static/js/main.04082b81.js.map",
+    "787.167f7a2f.chunk.js.map": "/RealTimeNews/static/js/787.167f7a2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1866103d.css",
+    "static/js/main.04082b81.js"
+  ]
+}
