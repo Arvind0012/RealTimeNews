@@ -19,7 +19,28 @@ function FetchNews() {
     }
   return (
     <>
-    {
+
+    <div className="container">
+        <div className="row">
+            {
+                news.map((a) =>{
+                    return(
+                        <div className="col">
+                            <div className="card">
+                            <img src={a.urlToImage} alt="Images" />
+                            <div className="container">
+                                <h4><b>{a.title}</b></h4>
+                                <p>Source : {a.source.name}</p>
+                                <a href={a.url} target="_blank" rel="noreferrer"><button className='see-more-btn'>See More</button></a>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })
+            }
+        </div>
+    </div>
+    {/* {
         news.map((a)=>{
             return ( 
                 
@@ -40,7 +61,7 @@ function FetchNews() {
                 
             )
         })
-    }
+    } */}
     </>
 
   )
