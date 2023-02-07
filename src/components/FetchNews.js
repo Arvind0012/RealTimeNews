@@ -30,7 +30,7 @@ function FetchNews() {
                             <img src={a.urlToImage} alt="Images" />
                             <div className="container">
                                 <h4><b>{a.title}</b></h4>
-                                <p>Source : {a.source.name}</p>
+                                <p style={{marginBottom:"1.1rem", marginTop:"0.8rem"}}>Source : {a.source.name}</p>
                                 <a href={a.url} target="_blank" rel="noreferrer"><button className='see-more-btn'>See More</button></a>
                             </div>
                         </div>

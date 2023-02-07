@@ -32,5 +32,15 @@ img {
     border: .5px solid black;
     border-radius: 4px;
     background-color: #fffede;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+.see-more-btn:hover{
+    scale: 1.01;
+}
+img{
+    transition-timing-function: ease-in-out;
+}
+img:hover{
+    scale: 1.01;
+    transition-delay: 10ms;
 }
